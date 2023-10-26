@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
     n2 = Math.cos(round2);
     n3 = Math.cos(round1);
 
-    res.send(`The Random Numbers are ${round1} and ${round2} <br><br> round applied is ${round1} is ${n1} <br><br> round applied is ${round2} is ${n2} <br><br> round applied is ${round1} is ${n3}`);
+    res.send(`The Random Numbers are ${round1} and ${round2} <br><br> cos applied is ${round1} is ${n1} <br><br> cos applied is ${round2} is ${n2} <br><br> cos applied is ${round1} is ${n3}`);
 
 
 });
